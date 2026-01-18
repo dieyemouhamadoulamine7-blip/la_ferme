@@ -1,0 +1,31 @@
+# Configuration sensible
+config/db.php
+config/config.php
+
+# Fichiers de session et cache
+*.log
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (si utilisé)
+node_modules/
+package-lock.json
+
+# Environnement
+.env
+.env.local
+
+# Images temporaires
+public/assets/images/temp/
