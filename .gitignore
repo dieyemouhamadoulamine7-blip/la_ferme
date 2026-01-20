@@ -1,31 +1,16 @@
-# Configuration sensible
-config/db.php
-config/config.php
+<?php
+// Configuration générale du site
 
-# Fichiers de session et cache
-*.log
-.DS_Store
-Thumbs.db
+// URL de base du site (à adapter selon votre environnement)
+define('BASE_URL', 'http://localhost/la_ferme/public/');
 
-# Fichiers temporaires
-*.tmp
-*.swp
-*.swo
-*~
+// Informations de la base de données
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'la_ferme');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 
-# IDE
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+// Options diverses
+define('SITE_NAME', 'La Ferme - Boutique en ligne');
 
-# Node (si utilisé)
-node_modules/
-package-lock.json
 
-# Environnement
-.env
-.env.local
-
-# Images temporaires
-public/assets/images/temp/
